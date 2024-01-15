@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="LoanCalculator.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="#">Simple_Calc</a>
+            <a href="#">Scintific_Calc</a>
+            <a href="#">Loan_Calc</a>
+            <a href="#">Currency_Converter</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1>Loan Calculator</h1>
+        <div class="wrapper">
+            <div class="wrapper1">
+                <p>Loan Amount (₹)</p>
+                <input id="amount" type="number">
+            </div>
+            <div>
+                <p>Interest Rate (%)</p>
+                <input id="interest" type="number">
+            </div>
+            <div>
+                <p>Tenure (in months)</p>
+                <input id="tenure" type="number">
+            </div>
+        </div>
+        <button id="calculateBtn" class="submit-button" ">Calculate Loan</button>
+        <h2 id="emi"></h2>
+        <h2 id="totalAmount"></h2>
+        <h2 id="totalInterest"></h2>
+    </div>
+    <script src="LoanCalculator.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,141 @@
+/* CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 50px;
+}
+
+body {
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #424242;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown {
+	display: inline-block;
+	border: 5px solid black;
+	position: relative;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.dropbtn {
+	background-color: white;
+	color: black;
+	
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #555;
+	color: white;
+}
+
+.container {
+    width: 400px;
+   background-color: #ABABAB;;
+    color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px black;
+
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top:  50px;
+    border-radius: 20px;
+        flex: 1;
+    padding: 20px;
+    background-color: #e63946;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px black;
+
+}
+
+
+.wrapper1{
+    
+    border-bottom-left-radius: 20px;
+}
+
+input {
+    display: block;
+     height: 30px;
+    width: 105px;
+     border-radius: 4px;
+    background-color: #FFF;
+    box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+    font-size: 20px;
+    color: #666;
+    text-align: right;
+    font-weight: 400;
+    color: black;
+
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px black;
+
+    transition: background-color 4s ease;
+}
+
+.submit-button:hover {
+    background-color: blue;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px black;
+
+}
+
+h2 {
+    margin-top: 20px;
+}
